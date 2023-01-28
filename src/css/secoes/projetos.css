@@ -3,7 +3,7 @@
     display: grid;        
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     margin: 0 auto;
-    grid-gap: 20px;       
+    grid-gap: 50px;       
 }
 
 @media(max-width: 1280px) { 
@@ -33,7 +33,7 @@
 }
 
 .projetos .container-projetos .projeto .informacoes-projeto {
-    padding: 20px 20px;    
+    padding: 30px 30px;    
     background-color: var(--cor-fundo-escuro);
     position: absolute;
     top: 0;
@@ -47,7 +47,7 @@
 
 .projetos .container-projetos .projeto .informacoes-projeto p:nth-child(2) {
     font-weight: 500;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 1.4rem;
 }
 
